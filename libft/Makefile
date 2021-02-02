@@ -48,11 +48,11 @@ SRC =		ft_memset.c \
 	  		ft_putstr_fd.c \
 	  		ft_putendl_fd.c \
 	  		ft_putnbr_fd.c \
-			ft_toupper_str_bonus.c \
-			ft_ultoa_hex_bonus.c \
-			ft_ltoa_dec_bonus.c \
-			ft_nblen_bonus.c \
-			ft_cmpstr_bonus.c
+			ft_toupper_str.c \
+			ft_ultoa_hex.c \
+			ft_ltoa_dec.c \
+			ft_nblen.c \
+			ft_cmpstr.c
 OBJ =		$(SRC:.c=.o)
 
 all:		$(NAME)
